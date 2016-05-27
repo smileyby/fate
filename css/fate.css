@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{ height:100%;}
+html{color:#000;background:#FFF;}
+body{background: #f0f0f0;color: #999;font-size: 16px; font-family:"Microsoft YaHei" !important;}
+ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form, fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; } table { border-collapse:collapse; border-spacing:0; } fieldset,img { border:0; } address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; } ol,ul { list-style:none; } caption,th { text-align:left; } h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; } q:before,q:after { content:''; } abbr,acronym { border:0; } 
+a{ cursor:pointer;}
+a:hover{ text-decoration:none !important;}
+a{text-decoration: none;color: #75B9C6;background-color: transparent;}
+.clear{ clear:both} 
+
+.main{
+	width:100%;
+	height:100%;
+	position:relative;
+	display:block;
+	overflow:hidden;    
+}
+.content{padding:10px;}
+.blank_10{width:100%;
+                height:10px;
+                font-size:0;
+                margin:0;
+                padding:0;
+                display:block;}
+.position_relative{position:relative;}
+.myCondition,.scroll{padding: 0 10px;}
+#fate_big_img{   width: 32.33%;
+		    height: 134px;
+		    display:inline-block;
+		    overflow: hidden;
+		    border:none;
+		    position: relative;
+		    text-align: center;
+		    padding: 0;}
+.beauty-box-1{    width: 94%;
+		    height: 134px;
+		    z-index: 105;
+		    margin: 0 auto;
+		    position: relative;
+		    top: 0;
+		    left: 0;
+		    text-align: center;
+		    line-height: 30px;}	
+.myHeartGray{position: absolute;
+		    width: 46px;
+		    height: 46px;
+		    left: 3px;
+		    top: 0;
+		    background-image: url(../img/myHeart.png);
+		    background-repeat: no-repeat;
+		    background-position: 5px -50px;
+		    background-size: 60%;
+		    z-index: 999999;}	
+.myHeartRed{    position: absolute;
+		    width: 46px;
+		    height: 46px;
+		    left: 0;
+		    top: 0;
+		    background-image: url(../img/myHeart.png);
+		    background-repeat: no-repeat;
+		    background-position: 5px 5px;
+		    background-size: 60%;
+		    z-index: 999999;}
+.beauty-box-1 a img{    text-align: center;
+			    width: 100%;
+			    height: 125px;
+			    border-radius: 5%;
+			    border: 0 solid #ccc;
+			    vertical-align: middle;}
+.topBanner{margin:10px; }	
+.fate_box_ul{	    width: 100%;
+		    height: 65.66666666666667px;
+		    border: 0px solid #000;
+		    position: relative;
+		    overflow: hidden;
+		    border-radius: 5px;}	
+.banner_ul{        position: absolute;
+	              top: 0;
+	              left:0;
+	              right:0;
+	              bottom:0;
+	              width: 1212px;
+	              transition: 1s all ease;}
+.banner_ul li{      width: 394px;
+		    height: 65.66666666666667px;
+		    float: left;
+		    position:absolute;
+		    list-style: none;}
+.banner_ul li:nth-child(1){left: 0;top: 0;}	
+.banner_ul li:nth-child(2){left: 404px;top: 0;}	
+.banner_ul li:nth-child(3){left: -404px;top: 0;}	    
+.conditionBox{    border-top: 1px solid #e5e5e5;
+		    border-bottom: 1px solid #e5e5e5;
+		    padding: 0!important;
+		    height: 38px;
+		    font-size: 14px;
+		    line-height: 38px;
+		    background: url(../img/position.png) 12px center no-repeat #fff;
+		    padding: 0 0 0 32px;
+		    border-bottom: 1px solid #EBEBEB;
+		    color: #747474;
+		    position: relative;}
+.conditionBox span{display: inline-block;
+                             position: absolute;}
+.conditionBox span:first-child{left: 30px;
+                                           top:0;}
+.conditionBox span:last-child{right:20px;
+                                           top:0;}
+#wrapper{position:absolute;
+	     left:0;
+	     right:0;
+	     top:126px;
+	     bottom:65px;
+	     background: #fff;
+	     overflow:hidden;}
+.globalTopTips{width: 100%;
+		height: 30px;
+	          display: block;
+	          position: absolute;
+	          left: 0;
+	          top: 0;
+	          line-height: 30px;
+	          font-size: 14px;
+	          text-align :left;
+	          z-index:99999;
+	          color:#fff;
+	          background: #EA489D;}
+.globalTopTips span{margin-left: 20px;} 
+.globalTopTips:before,.globalTopTips:after{content: " ";
+			                                 width: 2px;
+			                                 height: 15px;
+			                                 border-radius: 5px;
+			                                 background-color: #fff;
+			                                 position: absolute;
+			                                 right: 15px;
+			                                 top: 9px;} 
+.globalTopTips:before{transform: rotate(45deg);}	
+.globalTopTips:after{transform: rotate(-45deg);}			                                 
+.footer{display: block;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+           overflow:hidden;}
+.fiveFooter{display: block;
+	       width: 100%;
+	       height: 65px;
+	       overflow: hidden;}
+.fiveFooter ul{overflow:hidden;
+                     display:block;
+                     background-color:#F8F8F8;}	       
+.fiveFooter ul li{float: left;
+		 display:block;
+	            width: 20%;
+	            height:65px;
+	            font-size:14px;
+	            text-align:center;
+	            line-height:65px;}
+.globalLoading{  width: 104px;
+		    height: 82px;
+		    line-height: 120px;
+		    background: rgba(0,0,0,0.5) url(../img/loading_first.gif) center 14px no-repeat;
+		    background-size: 20px;
+		    position: fixed;
+		    left: 50%;
+		    top: 50%;
+		    font-size: 14px;
+		    margin: -41px 0 0 -52px;
+		    border-radius: 10px;
+		    color: #fff;
+		    text-align: center;}	 
+.myFC{position: relative;}
+.myFC:after{content: " ";
+                   width: 12px;
+                   height: 12px;
+                   border-right: 1px solid #999;
+                   border-bottom: 1px solid #999;
+                   transform: rotate(-45deg);
+                   position: absolute;
+                   right: -12px;
+                   top: 12px;}		               
+
